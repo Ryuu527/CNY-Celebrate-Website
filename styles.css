@@ -1,0 +1,305 @@
+
+
+
+body { 
+  font-family : Georgia;
+  color: white;
+  font-size: 22px;
+  background-image: url("wallpaper.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  }
+
+p { 
+  font-size : 22px;
+}
+
+h1 { 
+  font-size: 42px;
+}
+
+h2 { 
+  font-size: 36px;
+ text-align: center;
+  text-decoration: underline;
+}
+  
+img { 
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  }
+
+h3 { 
+  color: black;
+}
+ 
+
+
+  
+  .card { 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("wallpaper_all.png");
+    max-width: 65%;
+    height: auto;
+    border-radius: 10px;
+    padding: 50px 50px;
+    margin :auto;
+    box-shadow : 10px 10px 15px 0px rgba(0,0,0,10);
+    border: 5px solid gold;
+    border-shadow : 10px;
+  }
+
+
+
+  
+  .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white; 
+    background: linear-gradient(190deg,orange,yellow);
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px 0px rgba(255, 94, 98, 0.5);
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    float: right;
+    font-size: 20px;
+  }
+  
+  .card button:hover { 
+    opacity: 0.7;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+  }
+
+img { 
+    width: 70px;
+    height: 50px; 
+    margin : auto;
+} 
+
+.img1 { 
+    width: 70px;
+    height: 50px; 
+} 
+
+
+
+.nav { 
+  display: table;
+  margin: 0 auto;
+}
+
+ul {  
+  list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: auto;
+border: 5px;
+text-align: center;
+display: table;
+
+} 
+
+li { 
+float : left;
+padding: 10px 0px;
+}
+
+
+li a { 
+display: inline;
+color: white;
+padding: 10px; 14px;
+text-decoration: underline;
+font-size: 20px;
+float: center;
+} 
+
+
+li a:hover { 
+  background-color: gold;
+  color: white;
+  border-radius: 100%;
+  text-decoration: none;
+} 
+
+
+
+
+.flip-card_1 {
+  background-color: transparent;
+  max-width: 600px; 
+  max-height:400px;
+  width: 600px;
+  height: 400px;
+  display: inline-block;
+  padding: 15px 15px;
+  overflow: auto;
+  border-radius: 70px;
+  float: right;
+}
+
+
+.flip-card_1-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 80px;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card_1:hover .flip-card_1-inner {
+  transform: rotateY(180deg);
+  border-radius: 80px;
+}
+
+.flip-card_1-front, .flip-card_1-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 80px;
+}
+
+.flip-card_1-front {
+  background-color: white;
+  color: black;
+  border-radius: 80px;
+}
+
+.flip-card_1-back {
+  background-color: orange;
+  color: red;
+  transform: rotateY(180deg);
+  border-radius: 80px;
+  text-align: center;
+}
+
+
+
+
+.border { 
+  border-style: outset;
+  border-width: 15px;
+  border-color: gold;
+  padding: 20px;
+  margin: 20px;
+  border-image: url(border.png) 30 round;
+
+} 
+
+
+
+.flip-card {
+  max-width: 250px; 
+  max-height:400px;
+  width: 300px;
+  height: 400px;
+  padding: 15px 15px;
+  display: inline-block;
+  overflow: auto;
+  border-radius: 70px;
+overflow-x:hidden;
+}
+
+.flip-card-inner {
+  position: relative;
+  border-radius: 70px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  border-radius: 70px;
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  border-radius: 70px;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: gold;
+  color: black;
+  border-radius: 70px;
+}
+
+.flip-card-back {
+  background-color: orange;
+  color: red;
+  text-shadow: 2px black;
+  transform: rotateY(180deg);
+  font-size: 12px;
+  border-radius: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
